@@ -1,0 +1,14 @@
+List of errors/warnings:
+---DataBase.php---
+10 - błąd połączenia z bazą danych
+11 - błąd zapytania
+12 - błąd podczas rozłączania z bazą danych
+---UsersManager.php---
+20 - wybrany login jest zajęty
+21 - podane hasła są nieprawidłowe
+22 - podane dane są niepoprawne
+23 - brak danych użytkownika
+---ImagesManager.php---
+30 - tylko obrazki z rozszerzeniem .png, .jpg, .jpeg, .gif
+31 - błąd podczas wgrywania pliku
+32 - brak obrazów do pokazania

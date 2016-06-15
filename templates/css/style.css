@@ -1,0 +1,17 @@
+.my-navbar{
+	border-radius: 0px;
+}
+
+.my-panel-body{
+	text-align: center;
+}
+
+.my-panel-body > img{
+	max-width: 100%;
+}
+
+.my-footer{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
