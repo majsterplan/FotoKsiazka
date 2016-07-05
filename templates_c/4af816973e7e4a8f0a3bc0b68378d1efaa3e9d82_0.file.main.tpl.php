@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-04-18 14:00:28
+/* Smarty version 3.1.29, created on 2016-07-05 19:11:57
   from "C:\xampp\htdocs\tibi\templates\main.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5714cc5c945c32_40002038',
+  'unifunc' => 'content_577bea5d1ceb76_51881585',
   'file_dependency' => 
   array (
     '4af816973e7e4a8f0a3bc0b68378d1efaa3e9d82' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tibi\\templates\\main.tpl',
-      1 => 1460980761,
+      1 => 1467738712,
       2 => 'file',
     ),
   ),
@@ -19,10 +19,10 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5714cc5c945c32_40002038 ($_smarty_tpl) {
+function content_577bea5d1ceb76_51881585 ($_smarty_tpl) {
 ?>
 <main class="container">
-<?php if ($_SESSION['success'] != '') {?>
+<?php if ($_SESSION['success']) {?>
 <div class="alert alert-success" role="alert">Akcja zakończona powodzeniem.</div>
 <?php }
 if ($_SESSION['error'] != '') {?>

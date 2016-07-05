@@ -1,5 +1,5 @@
 <main class="container">
-{if $smarty.session.success != ""}
+{if $smarty.session.success}
 <div class="alert alert-success" role="alert">Akcja zakończona powodzeniem.</div>
 {/if}
 {if $smarty.session.error != ""}
